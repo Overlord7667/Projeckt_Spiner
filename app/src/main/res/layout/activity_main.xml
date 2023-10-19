@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/activity">
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/firstProgressBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        style="?android:attr/progressBarStyleSmall"/>-->
+
+<!--    <ProgressBar-->
+<!--        android:layout_below="@+id/firstProgressBar"-->
+<!--        android:id="@+id/secondProgressBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        style="?android:attr/progressBarStyleLarge"/>-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/thirdProgressBar"-->
+<!--        android:layout_below="@+id/secondProgressBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_margin="10dp"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:max="150"-->
+<!--        android:min="1"-->
+<!--        android:progress="0"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/start"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/thirdProgressBar"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="Start"/>-->
+
+<!--    <SeekBar-->
+<!--        android:id="@+id/seekBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:max="150"-->
+<!--        android:min="0"-->
+<!--        android:progress="75"-->
+<!--        android:layout_margin="10dp"/>-->
+
+<!--    <RatingBar-->
+<!--        android:id="@+id/ratingBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:numStars="5"-->
+<!--        android:stepSize="0.25"-->
+<!--        android:rating="0.75"/>-->
+
+<!--    <DatePicker-->
+<!--        android:id="@+id/datePicker"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+
+<!--    <TimePicker-->
+<!--        android:id="@+id/timePicker"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:timePickerMode="clock"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/clickBtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Click"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"/>-->
+
+    <Spinner
+        android:id="@+id/multi"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/spiner_style"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true">
+    </Spinner>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click and select the car you want to buy"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="#AAF4E3"/>
+</RelativeLayout>
